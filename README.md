@@ -14,6 +14,7 @@ paths.append("muratkokludataset/pistachio-image-dataset")
 실제로 아무 장치 없이 훈련을 시킬 경우 **피스타치오** 의 분류 성능이 매우 좋지 않은 것을 확인할 수 있음.
 
 ![output_image](./images/1.png)
+<br>
 따라서 이 문제를 해결하기 위해서 **클래스 가중치와 판단 지표로 F1-Score** 를 도입함.
 1. 오버샘플링
 2. 언더샘플링
