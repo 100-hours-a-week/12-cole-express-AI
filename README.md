@@ -38,7 +38,7 @@ Estimated Total Size (MB): 283.45
 ===============================================================================================
 ```
 
-![output_image](./images/2.png)
+![output_image](./images/2.png)<br>
 성능의 개선에는 성공했으나 아직 다수 데이터에 비해서 소수 데이터의 분류 정확도가 충분히 정확하지 않다는 사실을 알 수 있음.
 
 ## `250325`
@@ -149,7 +149,9 @@ config = {
 ![output_image](./images/6.png)
 ![output_image](./images/7.png)
 ![output_image](./images/8.png)
+<br>
 성능이 크게 상승한 것을 확인할 수 있다.
+<br>
 ![output_image](./images/9.png)
 ## `250326`
 `MongoDB` 와 훈련 과정을 연결하는 것으로 목표로 했음. NOSQL에 JSON 형식으로 올리는 것이 쉬울 것이라 판단했음.
